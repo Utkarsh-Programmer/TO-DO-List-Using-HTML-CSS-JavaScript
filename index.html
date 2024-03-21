@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="author" content="Utkarsh Yadav" />
+	<meta name="description" content="This page contains 'To-Do List App' created using HTML-CSS-JavaScript" />
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>To-Do List App</title>
+	<link rel="stylesheet" href="style.css" />
+	<script defer src="script.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<!-- app logo -->
+		<div class="todo-app">
+			<h2>TO-DO List <img src="Images/icon.png" alt="Icon" /></h2>
+
+			<!-- search box -->
+			<div class="row">
+				<input type="text" id="input-box" placeholder="Add your task" />
+				<button onclick="addTask()">Add</button>
+			</div>
+			<ul id="list-container">
+				<!-- <li class="checked">Task 1</li>
+					<li>Task 2</li>
+					<li>Task 3</li> -->
+			</ul>
+		</div>
+	</div>
+</body>
+
+</html>
